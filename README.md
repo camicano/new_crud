@@ -1,5 +1,4 @@
 #Books
-------------------------------------------------------------------
 
 Is an app that lets you upload your favorite authors, list their books and organized them alphabetically.
 
