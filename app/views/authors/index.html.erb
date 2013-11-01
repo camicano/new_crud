@@ -1,7 +1,7 @@
 <h1>Authors</h1>
 
 <% @authors.each do |author| %>
-	<a href='/authors/<%= author.id %>/edit' ><p><%= author.name %></p></a>
+	<a href='/authors/<%= author.id %>' ><p><%= author.name %></p></a>
 <% end %>
 
 <%= form_for @author do |f| %>

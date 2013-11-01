@@ -5,5 +5,5 @@
 <%= f.submit('edit') %>
 <% end %>
 
-<%= link_to "delete", {:controller => :author,
+<%= link_to "delete", {:controller => :authors,
       :action => 'destroy', :id => @author.id }, :method => :delete %>

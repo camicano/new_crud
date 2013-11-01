@@ -8,13 +8,13 @@ class AuthorsController < ApplicationController
   def show
     @author = Author.find(params[:id])
 
-    @words = @author.books
+    @books = @author.books
 
-    @word = Book.new
+    @book = Book.new
   end
 
   def create
-    @author = Author.create(params[:name])
+    @author = Author.create(params[:author])
 
     redirect_to root_path
   end
